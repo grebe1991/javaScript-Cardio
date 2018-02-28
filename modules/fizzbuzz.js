@@ -2,7 +2,7 @@
  * returns the numbers from 0 to 100. For multiples of 3 it prints Fizz and for multiple of 5 Buzz, for both FizzBuzz
  */
 
-fizzbuzz = () => {
+const fizzbuzz = () => {
     for (let i = 0; i <= 100; i++) {
         if (i % 15 === 0) {
             console.log('FizzBuzz');
